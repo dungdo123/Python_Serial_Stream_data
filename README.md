@@ -9,7 +9,7 @@ command: sudo chmod 666 /dev/*name of device
    1. pair devices, password: 1234
    2. hcitool scan # to check MAC of bluetooth module
    3. setup rfcomm manually:
-         sudo rfcomm bind 0 MAC 1
+         sudo rfcomm bind 0 mac_address 1
    4. run code to read data
    5. release devices when finished:
         sudo rfcomm release rfcomm0
